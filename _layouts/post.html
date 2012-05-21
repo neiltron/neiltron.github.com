@@ -2,8 +2,8 @@
 layout: default
 ---
 <div id="post">
-  {% if post.title != null %}
-    <h4><a href="{{ url }}">{{ post.title }}</a></h4>
+  {% if page.title != null %}
+    <h4><a href="{{ url }}">{{ page.title }}</a></h4>
   {% endif %}
   <div>{{ content }}</div>
   <a class='permalink' href="{{ url }}">#</a>

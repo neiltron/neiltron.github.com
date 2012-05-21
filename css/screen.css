@@ -75,7 +75,7 @@ ul.posts {
     position: relative;
   }
 
-    ul.posts li a.permalink {
+    ul.posts li a.permalink, #post a.permalink {
       position: absolute;
       top: 0;
       left: -30px;
@@ -165,7 +165,7 @@ ul.posts {
 /*****************************************************************************/
 
 #post {
-
+  position: relative;
 }
 
   /* standard */
