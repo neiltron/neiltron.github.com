@@ -16,11 +16,11 @@ html, body {
 }
 
 body {
-  background-color: white;
-  padding-bottom: 40px;
+  background-color: #fdfdff;
   font: 13.34px "proxima-nova", helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
+  text-shadow: 1px 1px 0 #fff;
   color: #333;
 }
 
@@ -88,6 +88,46 @@ ul.posts {
     font-size: 80%;
   }
 
+
+
+/*****************************************************************************/
+/*
+/* Sidebar
+/*
+/*****************************************************************************/
+
+#sidebar {
+  width: 240px;
+  text-align: right;
+  float: left;
+}
+  #sidebar #nav {
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+
+    font-family: fontello;
+    font-size: 12pt;
+  }
+
+    #sidebar #nav a {
+      display: block;
+      width: 100%;
+      color: #555;
+      text-decoration: none;
+      text-align: right;
+    }
+    #sidebar #nav a:hover {
+      color: #222;
+    }
+
+    #sidebar #nav li {
+      float: right;
+      width: 40px;
+      display: block;
+      text-align: center;
+    }
+
 /*****************************************************************************/
 /*
 /* Site
@@ -104,25 +144,25 @@ ul.posts {
 
 .title {
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: .25em;
 }
 
-  .site .title a {
+  .title a {
     color: #333;
     text-decoration: none;
   }
 
-  .site .title a:hover {
-    color: #a00;
+  .title a:hover {
+    color: #000;
   }
 
-  .site .title a.extra {
+  .title a.extra {
     color: #aaa;
     text-decoration: none;
     margin-left: 1em;
   }
 
-  .site .title a.extra:hover {
+  .title a.extra:hover {
     color: black;
   }
 
@@ -212,3 +252,44 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+
+
+/********************************************************
+/*
+/* Fonts
+/*
+/********************************************************/
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'fontello';
+  src: url('fonts/fontello.eot');
+  src: url('fonts/fontello.eot?#iefix') format('embedded-opentype'),
+       url('fonts/fontello.woff') format('woff'),
+       url('fonts/fontello.ttf') format('truetype'),
+       url('fonts/fontello.svg#fontello') format('svg');
+  font-weight: normal; font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: fontello;
+  font-style: normal;
+  speak: none;
+
+  display: inline-block;
+  width: 1.1em;
+  margin-right: .1em;
+  text-align: center;
+}
+
+.the-icons li {
+  font-size: 14px;
+  line-height: 24px;
+  height: 24px;
+}
+
+.icon-rss-alt:before { content: ""; } /* '\e73b' */
+.icon-twitter-bird:before { content: ""; } /* '\f303' */
+.icon-github-text:before { content: ""; } /* '\f307' */
