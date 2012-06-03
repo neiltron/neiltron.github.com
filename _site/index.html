@@ -12,10 +12,18 @@
   </head>
   <body>
 
-    <div class="site">
+    <div id='sidebar'>
       <h1 class="title">
         <a href="/">So Far Swell</a>
       </h1>
+
+      <ul id='nav'>
+        <li><a href='/feed.xml' class='icon-rss-alt'></a></li>
+        <li><a href='http://github.com/neiltron' class='icon-github-text'></a></li>
+        <li><a href='http://twitter.com/realtron' class='icon-twitter-bird'></a></li>
+      </ul>
+    </div>
+    <div class="site">
 
       <div id="home">
   <ul class="posts">
@@ -35,18 +43,17 @@ Jackolantern, I’m Danny Tanner.
         
         <h4><a href="/2011/10/04/elon-musk.html"></a></h4>
         
-        <div><blockquote><p>Wired.com:</p>
+        <div><blockquote><p>Wired.com:
+  How do you maintain your optimism?</p>
 
-<p>  How do you maintain your optimism?
-Musk:</p>
+<p>Musk:
+  Do I sound optimistic?</p>
 
-<p>   Do I sound optimistic?
-Wired.com:</p>
+<p>Wired.com:
+  Yeah, you always do.</p>
 
-<p>   Yeah, you always do.
-Musk:</p>
-
-<p>   Optimism, pessimism, fuck that; were going to make it happen. As God is my bloody witness, Im hell-bent on making it work.</p></blockquote>
+<p>Musk:
+  Optimism, pessimism, fuck that; were going to make it happen. As God is my bloody witness, Im hell-bent on making it work.</p></blockquote>
 </div>
         <a class='permalink' href="/2011/10/04/elon-musk.html">#</a>
       </li>
@@ -62,7 +69,7 @@ Musk:</p>
   [scoffs] Are you finished?</p>
 
 <p>Brent:
- Yeah. Yeah, Im sorry</p></blockquote>
+  Yeah. Yeah, Im sorry</p></blockquote>
 </div>
         <a class='permalink' href="/2011/09/19/killface.html">#</a>
       </li>
@@ -241,16 +248,20 @@ said Facelette put a smile on their faces."</p></blockquote>
   </ul>
 </div>
 
-
-      <div class='footer'>
-        <strong>Elsewhere</strong>
-        <p>
-          <a href='http://twitter.com/realtron'>Twitter</a><br />
-          <a href='http://github.com/neiltron'>Github</a>
-        </p>
-      </div>
     </div>
 
+    <script type="text/javascript">
 
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-32367846-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
   </body>
 </html>
