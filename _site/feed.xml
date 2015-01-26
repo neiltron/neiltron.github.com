@@ -6,6 +6,32 @@
     <link>http://sofarswell.com</link>
     
       <item>
+        <title>Playing With Pixels</title>
+        <description>&lt;p&gt;I learned how to actually write javascript – rather than just hacking other peoples&#39; code – over a weekend in my early 20s (2006-2007ish). My cable had been cut-off for non-payment (again, early 20s) and I had for some reason downloaded a full, offline copy of the javascript docs. What followed was a lot of moving DOM rectangles around the screen and incredible amounts of Math.random() and setTimeout() to make seizure-inducing, flashing animations.&lt;/p&gt;
+
+&lt;p&gt;Before my internet was turned back on, all of this had evolved into a really crude swarm implementation. It was basically a PHP file that could take a BMP file. It would convert each pixels into a bunch of 1x1 &amp;lt;span&amp;gt;&#39;s with embedded RGB codes and X/Y coordinates specified as class attributes.&lt;/p&gt;
+
+&lt;p&gt;On page load, a bit of javascript would take each span and randomly place it on the screen. It would then slowly move each pixels into place to form the original image. You can view the original &lt;a href=&#39;http://descend.org/neil/swarm.html&#39; target=&#39;_blank&#39;&gt;here&lt;/a&gt;. (warning, nsfw language and CPU-meltingly bad code. Also gratuitous use of #ff00ff.)&lt;/p&gt;
+
+&lt;p&gt;DOM libraries and particle animation have come a long way since then. It&#39;s now possible (or at least much easier) to load a PNG via javascript and extract all of the pixel information. No server-side parsing necessary.&lt;/p&gt;
+
+&lt;p&gt;Belgian agency, &lt;a href=&#39;http://digiti.be&#39; target=&#39;_blank&#39;&gt;Digiti&lt;/a&gt;, the makers of the awesome &lt;a href=&#39;http://epicexit.com&#39; target=&#39;_blank&#39;&gt;Epic Exit&lt;/a&gt; micro-site, released the code that powered Epic Exit as a library called &lt;a href=&#39;https://github.com/digiti/MoleculeJs&#39; target=&#39;_blank&#39;&gt;MoleculeJS&lt;/a&gt;. I decided to take a couple hours to play around with it to see how easy it would be to recreate my old experiment.&lt;/p&gt;
+
+&lt;p&gt;It ended up being really, really, stupid easy. And way more performant than the original. First, I drew up a really simple PNG in Illustrator.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/pixelfuckery/TOODOPE.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I wrote a bit of inline javascript to create &#39;molecules&#39; out of the pixels and bend them to my will. The final product was supposed to make it look like the letters are bouncing to some bass, like your blatter the first time you saw the &lt;a href=&#39;https://www.youtube.com/watch?v=1koa2xAxCAw&#39; target=&#39;_blank&#39;&gt;T-Rex scene from Jurassic Park&lt;/a&gt; in theaters.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/pixelfuckery/toodope.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;http://neiltron.github.io/pixeljanks/public/&quot;&gt;check out the end result&lt;/a&gt; in your browser and/or &lt;a href=&quot;https://github.com/neiltron/pixeljanks&quot;&gt;view the code on Github&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <published>2015-01-26 17:25:03 -0500</published>
+        <link>http://sofarswell.com/2015/01/26/2014-9-10-playing-with-pixels.html</link>
+      </item>
+    
+      <item>
         <title>Jackolantern, I'm Danny Tanner.</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://25.media.tumblr.com/tumblr_lupypiwP4m1qfupq5o1_1280.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
@@ -98,14 +124,6 @@ adjective or an adverb. If it’s an adjective or an adverb, omit it.&lt;/p&gt;&
 </description>
         <published>2011-06-21 00:00:00 -0400</published>
         <link>http://sofarswell.com/2011/06/21/fred-brooks.html</link>
-      </item>
-    
-      <item>
-        <title>You['re] a customer, crony</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://j%0Aoeyroth.com/&quot;&gt;&lt;img src=&quot;http://24.media.tumblr.com/tumblr_lmkzd0dEGx1qfupq5o1_1280.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <published>2011-06-10 00:00:00 -0400</published>
-        <link>http://sofarswell.com/2011/06/10/hustler-homie.html</link>
       </item>
     
   </channel>
