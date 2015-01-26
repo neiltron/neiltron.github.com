@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+		<script type='text/javascript' src='js/jquery.transit.min.js'></script>
+		<script type-'text/javascript'>
+			var skew = 0,
+				bgcolor = 0,
+				flip_timer = '';
+
+			function flipTitle () {
+				skew = Math.random() * 30;
+				$.each($('#thing li'), function (i, e) {
+					bgcolor = (200 - (i * 5));
+					console.log(bgcolor, i)
+					$(e).css({ 'background': 'rgba(' + parseInt(bgcolor - 20) + ',' + parseInt(bgcolor - 20) + ',' + parseInt(bgcolor) + ', .5)' })
+						.transition({ rotate: (360 - ((Math.floor(5 * i)) + (skew / 10))), duration: 50 })
+						.transition({ skewX: skew, skewY: skew, duration: 500 })
+				})
+			}
+	
+			$(document).ready(function () {
+				flipTitle();
+				$('body').on('click', function (e) {
+					flipTitle();
+				});
+			})
+		</script>
+		<style type='text/css'>
+			body {
+				margin: 0;
+			}
+			#thing {
+				list-style: none;
+				padding: 0;
+				position: relative;
+				top: 33%;
+				left: 0;
+				display: block;
+				width: 480px;
+				height: 360px;
+				overflow: hidden;
+				margin: 0 auto;
+			}
+				#thing li {
+					border: 1px solid #333;
+					display: block;
+					height: 500%;
+					width: 500%;
+					background-color: #555556;
+					opacity: .08;
+
+					position: absolute;
+					top: 0;
+					left: -30%;
+				}
+				
+				#thing h1 {
+					position: absolute;
+					top: 0;
+					left: 0;
+					text-align: center;
+					padding: 0;
+					font-family: helvetica;
+					font-weight: 1000;
+					font-size: 86pt;
+					color: #0CF;
+					line-height: 100%;
+					vertical-align: middle;
+					width: 100%;
+				}
+		</style>
+	</head>
+	<body>
+		<ul id='thing'>
+			<h1>SOFAR SWELL</h1>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+			<li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+			<li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</body>
+</html>
