@@ -1,8 +1,7 @@
---- 
+---
 layout: post
-title: "\n\
-  Jackolantern, I\xE2\x80\x99m Danny Tanner.\n"
-tags: 
+title: "Jackolantern, I'm Danny Tanner."
+tags:
 ---
 ![](http://25.media.tumblr.com/tumblr_lupypiwP4m1qfupq5o1_1280.png)
 
