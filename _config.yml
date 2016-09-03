@@ -2,6 +2,9 @@
 title: DESCEND
 timezone: UTC
 collections:
+  portfolio-items:
+    title: Portfolio Items
+    output: true
   posts:
     title: Posts
     output: true
