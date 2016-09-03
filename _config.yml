@@ -7,8 +7,6 @@ collections:
     output: true
     permalink: portfolio
     body: cool
-    images:
-    - 
   posts:
     title: Posts
     output: true
