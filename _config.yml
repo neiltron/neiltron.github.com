@@ -6,6 +6,8 @@ collections:
     title: Portfolio Items
     output: true
     permalink: portfolio
+    Image:
+    - 
   posts:
     title: Posts
     output: true
