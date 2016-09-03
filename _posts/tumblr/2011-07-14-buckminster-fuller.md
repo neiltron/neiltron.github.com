@@ -1,8 +1,9 @@
 ---
+title: ''
+date: 2011-07-14 00:00:00 Z
 layout: post
-title: ""
-tags:
 ---
+
 > When I’m working on a problem, I never think about beauty. I think only how
 to solve the problem.
 

@@ -1,5 +1,15 @@
+---
+title: DESCEND
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 markdown: rdiscount
 pygments: true
 name: So Far Swell
-description:
+description: 
 url: http://sofarswell.com

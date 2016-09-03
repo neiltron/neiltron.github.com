@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Playing With Pixels
-tags:
+date: 2014-09-10 00:00:00 Z
+layout: post
 ---
 
 I learned how to actually write javascript – rather than just hacking other peoples' code – over a weekend in my early 20s (2006-2007ish). My cable had been cut-off for non-payment (again, early 20s) and I had for some reason downloaded a full, offline copy of the javascript docs. What followed was a lot of moving DOM rectangles around the screen and incredible amounts of Math.random() and setTimeout() to make seizure-inducing, flashing animations.
