@@ -5,6 +5,7 @@ collections:
   portfolio-items:
     title: Portfolio Items
     output: true
+    permalink: portfolio
   posts:
     title: Posts
     output: true
